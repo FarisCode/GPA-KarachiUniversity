@@ -172,7 +172,7 @@ export default class Modal extends Component {
     const visible5 = this.state.value4 > 49 && this.state.value4 < 101;
     const visible6 = this.state.value5 > 49 && this.state.value5 < 101;
     const visible7 = this.state.value6 > 49 && this.state.value6 < 101;
-    const visible8 = this.state.value7 > 49 && this.state.value7 < 101;
+    const visible8 = (this.state.value7 > 49 && this.state.value7 < 101) || (this.state.value8 > 49 && this.state.value8 < 101);
 
     return (
       <div className={styles.Modal} >
