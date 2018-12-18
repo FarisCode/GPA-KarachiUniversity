@@ -48,3 +48,9 @@ code {
 .MuiFormControl-marginNormal-2{
   margin: 8px 0 !important;
 }
+.swal2-footer>a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
